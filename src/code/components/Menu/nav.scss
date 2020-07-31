@@ -1,0 +1,39 @@
+#mySidenav .nav-link {
+  position: fixed;
+  left: -181px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 220px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#mySidenav .nav-link {
+  text-align: right;
+}
+
+#mySidenav .nav-link:hover {
+  left: 0;
+}
+
+#mySidenav #home {
+  top: 20px;
+  background-color: #4caf50;
+}
+
+#mySidenav #about {
+  top: 90px;
+  background-color: #2196f3;
+}
+
+#mySidenav #work {
+  top: 160px;
+  background-color: orangered;
+}
+
+#mySidenav #contact {
+  top: 230px;
+  background-color: goldenrod;
+}
